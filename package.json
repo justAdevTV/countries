@@ -1,0 +1,24 @@
+{
+  "name": "countries-page",
+  "version": "1.0.0",
+  "description": "Countries page for frontendmentor.io",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/justAdevTV/job-listings-page.git",
+  "author": "Justin Punzalan <justpunzz@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1"
+  }
+}
