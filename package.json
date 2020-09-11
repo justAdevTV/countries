@@ -1,14 +1,14 @@
 {
-  "name": "countries-page",
+  "name": "countries-list",
   "version": "1.0.0",
-  "description": "Countries page for frontendmentor.io",
+  "description": "Countries list for frontendmentor.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "main": "index.js",
-  "repository": "https://github.com/justAdevTV/job-listings-page.git",
+  "repository": "https://github.com/justAdevTV/countries-list",
   "author": "Justin Punzalan <justpunzz@gmail.com>",
   "license": "MIT",
   "private": false,
