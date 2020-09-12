@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
     width: 100vw;
     /* TODO: Add this in */
-    /* background-color: ${({ theme }) => theme.colors.background}; */
+    background-color: ${({ theme }) => theme.colors.background};
   }
 `;
 
