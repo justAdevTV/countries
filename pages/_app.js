@@ -1,8 +1,6 @@
-import { createContext, useContext, useReducer } from "react";
+import { useReducer } from "react";
 import { AppProvider } from "../components";
 import { baseTheme, dark, light } from "../components/_base/themes";
-
-const ThemeContext = createContext(null);
 
 const defaultTheme = { ...baseTheme, ...light };
 
@@ -21,12 +19,12 @@ const themeReducer = (_, action) => {
 function MyApp({ Component, pageProps }) {
   const [theme, themeDispatcher] = useReducer(themeReducer, defaultTheme);
 
+  const handleThemeChange = () => {};
+
   return (
-    <ThemeContext.Provider value={{ themeDispatcher }}>
-      <AppProvider theme={theme}>
-        <Component {...pageProps} />
-      </AppProvider>
-    </ThemeContext.Provider>
+    <AppProvider theme={theme}>
+      <Component {...pageProps} />
+    </AppProvider>
   );
 }
 
